@@ -12,6 +12,18 @@ namespace Abc.MvcWebUI.Entity
         {
             var kategoriler = new List<Category>()
             {
+                new Category(){Name = "Spor Ayakkabı",Description="Spor Şık Modellerle, Rahatlık bir arada"},
+                new Category(){Name = "Abiye Ayakkabı",Description="Abiye Şık Modellerle, Rahatlık bir arada"},
+                new Category(){Name = "Klasik Ayakkabı",Description="Klasik Şık Modellerle, Rahatlık bir arada"},
+                new Category(){Name = "Terlik",Description="Terlik Şık Modellerle, Rahatlık bir arada"},
+                new Category(){Name = "Cüzdan",Description="Spor Şık Modellerle, Rahatlık bir arada"},
+                new Category(){Name = "Büyük Boy Valiz",Description="Spor Şık Modellerle, Rahatlık bir arada"},
+                new Category(){Name = "Orta Boy Valiz",Description="Spor Şık Modellerle, Rahatlık bir arada"},
+                new Category(){Name = "Küçük Boy Valiz",Description="Spor Şık Modellerle, Rahatlık bir arada"},
+                new Category(){Name = "Sırt Çantası",Description="Spor Şık Modellerle, Rahatlık bir arada"},
+                new Category(){Name = "Çapraz Çanta",Description="Spor Şık Modellerle, Rahatlık bir arada"},
+                new Category(){Name = "Abiye Çanta",Description="Spor Şık Modellerle, Rahatlık bir arada"},
+                new Category(){Name = "Kemer",Description="Spor Şık Modellerle, Rahatlık bir arada"},
                 new Category(){ Name = "Kamera", Description = "Kamera ürünleri"},
                 new Category(){ Name = "Bilgisayar", Description = "Bilgisayar ürünleri"},
                 new Category(){ Name = "Televizyon", Description = "Televizyon ürünleri"},

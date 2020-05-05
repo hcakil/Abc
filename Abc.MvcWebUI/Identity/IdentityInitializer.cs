@@ -41,6 +41,16 @@ namespace Abc.MvcWebUI.Identity
                 manager.AddToRole(user.Id, "admin");
                 manager.AddToRole(user.Id, "user");
             }
+            if (!context.Users.Any(i => i.Name == "hazimcakil"))
+            {
+                var store = new UserStore<ApplicationUser>(context);
+                var manager = new UserManager<ApplicationUser>(store);
+                var user = new ApplicationUser() { Name = "hazim", Surname = "cakil", UserName = "hazimcakil", Email = "hazimcakil@gmail.com" };
+
+                manager.Create(user, "1234567");
+                manager.AddToRole(user.Id, "admin");
+                manager.AddToRole(user.Id, "user");
+            }
 
             if (!context.Users.Any(i => i.Name == "cinarturan"))
             {
